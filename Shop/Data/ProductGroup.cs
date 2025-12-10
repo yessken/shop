@@ -2,4 +2,5 @@
 {
     public string GroupName { get; set; } = null!;
     public List<ProductInGroup> Items { get; set; } = new();
+    public decimal TotalPrice => Items.Sum(p => p.Price * p.Quantity);
 }
