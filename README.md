@@ -64,7 +64,7 @@
   }
 ]
 Технологии
-ASP.NET Core 7
+ASP.NET 8
 
 Entity Framework Core
 
